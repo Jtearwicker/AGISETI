@@ -1,1 +1,1 @@
-# AGISETI
+# AGISETI workshop files
