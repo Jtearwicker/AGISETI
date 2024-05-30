@@ -44,8 +44,8 @@ blocks:
     rangeType: float
     start: '1000'
     step: '100'
-    stop: '20000'
-    value: '2000'
+    stop: '10000'
+    value: '1000'
     widget: counter_slider
   states:
     bus_sink: false
@@ -90,12 +90,12 @@ blocks:
     samp_rate: samp_rate
     showports: 'False'
     type: float
-    waveform: analog.GR_SIN_WAVE
+    waveform: analog.GR_COS_WAVE
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [16, 192.0]
+    coordinate: [96, 228.0]
     rotation: 0
     state: enabled
 - name: blocks_throttle2_0
@@ -116,7 +116,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [232, 224.0]
+    coordinate: [304, 240.0]
     rotation: 0
     state: enabled
 - name: qtgui_freq_sink_x_0
@@ -151,7 +151,7 @@ blocks:
     comment: ''
     ctrlpanel: 'False'
     fc: '0'
-    fftsize: '8192'
+    fftsize: '32768'
     freqhalf: 'False'
     grid: 'True'
     gui_hint: ''
@@ -197,7 +197,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [432, 256.0]
+    coordinate: [608, 372.0]
     rotation: 0
     state: enabled
 - name: qtgui_time_sink_x_0
@@ -294,7 +294,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [432, 176.0]
+    coordinate: [592, 220.0]
     rotation: 0
     state: enabled
 
@@ -305,4 +305,4 @@ connections:
 
 metadata:
   file_format: 1
-  grc_version: 3.10.9.2
+  grc_version: 3.10.7.0
